@@ -1,0 +1,395 @@
+/************************/
+/*      COULEURS        */
+/************************/
+
+.primary {
+  background-color: #18698f;
+}
+
+.text-primary {
+  color: #18698f;
+}
+
+/*
+body {
+  background-color: #7a8387;
+}*/
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #18698f;
+}
+
+p {
+  font-family: "DM Sans";
+  color: #75b5d3;
+}
+
+/* Typographie pour <lead> */
+lead {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25em;
+  /* Taille de police personnalisée */
+  font-weight: bold;
+  /* Poids de la police personnalisé */
+  color: #75b5d3;
+}
+
+/* Typographie pour <blockquote> */
+blockquote {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2em;
+  /* Taille de police personnalisée */
+  font-style: italic;
+  /* Style de police personnalisé */
+}
+
+/* Typographie pour les listes <ul>, <ol>, <li> */
+ul,
+ol {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1em;
+  /* Taille de police personnalisée */
+}
+
+li {
+  margin-bottom: 0.5em;
+  color: #75b5d3;
+  /* Marge inférieure personnalisée entre les éléments de liste */
+}
+
+/* DEBUT DES BOUTONS */
+.btn {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  box-shadow: inset 0 0 4px rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+  color: #ffffff;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-lg {
+  padding: 15px 30px;
+}
+
+.btn-sm {
+  padding: 6px 12px;
+}
+
+.btn-primary {
+  background-color: #18698f;
+}
+
+.btn-secondary {
+  background-color: #75b5d3;
+}
+
+.btn-info {
+  background-color: #55e3fd;
+}
+
+/* Bouton Success */
+.btn-success {
+  background-color: #55fd89;
+}
+
+/* Bouton Danger */
+.btn-danger {
+  background-color: #fd5555;
+}
+
+/* Bouton Warning */
+.btn-warning {
+  background-color: #fda855;
+}
+
+.btn-dark {
+  background-color: #5a6a71;
+}
+
+.btn-light {
+  background-color: #7b8e97;
+}
+
+.btn-outline-primary {
+  color: #18698f;
+  border: 1px solid #18698f;
+  background-color: transparent;
+}
+
+.btn-outline-secondary {
+  color: #75b5d3;
+  border: 1px solid #75b5d3;
+  background-color: transparent;
+}
+
+.btn-outline-info {
+  color: #55e3fd;
+  border: 1px solid #55e3fd;
+  background-color: transparent;
+}
+
+/* Bouton Success */
+.btn-outline-success {
+  color: #55fd89;
+  border: 1px solid #55fd89;
+  background-color: transparent;
+}
+
+/* Bouton Danger */
+.btn-outline-danger {
+  color: #fd5555;
+  border: 1px solid #fd5555;
+  background-color: transparent;
+}
+
+/* Bouton Warning */
+.btn-outline-warning {
+  color: #fda855;
+  border: 1px solid #fda855;
+  background-color: transparent;
+}
+
+.btn-outline-dark {
+  color: #5a6a71;
+  border: 1px solid #5a6a71;
+  background-color: transparent;
+}
+
+.btn-outline-light {
+  color: #7b8e97;
+  border: 1px solid #7b8e97;
+  background-color: transparent;
+}
+
+/* FIN DES BOUTONS */
+
+input {
+  padding: 10px;
+  border: 1px solid #75b5d3;
+  border-radius: 5px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1em;
+  background-color: transparent;
+  color: #75b5d3;
+}
+
+::placeholder {
+  color: #75b5d3;
+}
+
+select:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+option {
+  background-color: #75b5d3;
+}
+
+/* Styles pour les selects */
+select {
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1em;
+  background-color: #18698f;
+  color: #ffffff;
+  border: none;
+  box-shadow: inset 0 0 4px rgba(255, 255, 255, 0.5);
+  /* Autres styles personnalisés */
+}
+
+/* Styles pour les textarea */
+textarea {
+  padding: 10px;
+  border: 1px solid #75b5d3;
+  border-radius: 5px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1em;
+  background-color: transparent;
+  /* Autres styles personnalisés */
+}
+
+.list-group-item {
+  display: block;
+  padding: 10px;
+  background-color: #2f3234;
+  color: #818b90;
+  transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #585d61;
+  color: #2f3234;
+}
+
+.list-group-item-primary {
+  background-color: #18698f;
+  color: #75b5d3;
+}
+
+.list-group-item-primary:hover {
+  color: #18698f;
+  background-color: #2191c6;
+}
+
+.list-group-item-secondary {
+  color: #18698f;
+  background-color: #75b5d3;
+}
+
+.list-group-item-secondary:hover {
+  background-color: #81c7e8;
+  color: #13506d;
+}
+
+.list-group-item-success {
+  color: #55fd89;
+  background-color: #359e56;
+}
+
+.list-group-item-success:hover {
+  background-color: #55fd89;
+  color: #359e56;
+}
+
+.list-group-item-danger {
+  color: #fd5555;
+  background-color: #912f2f;
+}
+
+.list-group-item-danger:hover {
+  background-color: #fd5555;
+  color: #912f2f;
+}
+
+.list-group-item-warning {
+  color: #fda855;
+  background-color: #9d6733;
+}
+
+.list-group-item-warning:hover {
+  background-color: #fda855;
+  color: #9d6733;
+}
+
+.list-group-item-info {
+  color: #55e3fd;
+  background-color: #338796;
+}
+
+.list-group-item-info:hover {
+  background-color: #55e3fd;
+  color: #338796;
+}
+
+.list-group-item-light {
+  color: #b8ccd6;
+  background-color: #5a6a71;
+}
+
+.list-group-item-light:hover {
+  background-color: #b8ccd6;
+  color: #5a6a71;
+}
+
+.list-group-item-dark {
+  background-color: #3c464b;
+  color: #7b8e97;
+}
+
+.list-group-item-dark:hover {
+  color: #3c464b;
+  background-color: #7b8e97;
+}
+
+.card {
+  border: 1px solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  flex: 1;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 25px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.card-subtitle {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #2121c6;
+}
+
+.card-link:hover {
+  text-decoration: none;
+  color: #6b6bc6;
+}
+
+.card-profile {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-avatar img {
+  display: block;
+  width: 200px;
+  object-fit: cover;
+}
+
+.banner-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.banner-title {
+  text-align: center;
+}
+
+.banner-title h3 {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.banner-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
